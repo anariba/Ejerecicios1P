@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios1Parcial.Ejercicio1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txnum1" Keyboard="Numeric" Placeholder="Ingrese Primer Numero" TextColor="Blue" />
+            <Entry x:Name="txnum2" Keyboard="Numeric" Placeholder="Ingrese Segundo Numero"  TextColor="Blue"/>
+
+            <Button  x:Name="btnsuma"  Text="Suma" TextColor="Blue" Clicked="btnsuma_Clicked"/>
+            <Button  x:Name="btnresta" Text="Resta" TextColor="Blue" Clicked="btnresta_Clicked"/>
+            <Button  x:Name="btnmuntiplicacion" Text="Multiplicacion" TextColor="Blue" Clicked="btnmuntiplicacion_Clicked"/>
+            <Button  x:Name="btndivision" Text="Division" TextColor="Blue" Clicked="btndivision_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

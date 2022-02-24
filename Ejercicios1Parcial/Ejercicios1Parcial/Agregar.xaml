@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios1Parcial.Agregar">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="codigo" Keyboard="Numeric" Placeholder="Codigo" Text="{Binding codigo}"/>
+            <Entry x:Name="Nombre" Keyboard="Plain" Placeholder="Nombre" Text="{Binding Nombre}" />
+            <Entry x:Name="apellido" Keyboard="Plain" Placeholder="Apellido" Text="{Binding Apellido}"/>
+            <Entry x:Name="Edad" Keyboard="Numeric" Placeholder="Edad" Text="{Binding Edad}"/>
+            <Entry x:Name="correo" Keyboard="Email" Placeholder="Email" Text="{Binding Correo}"/>
+            <Entry x:Name="direccion" Keyboard="Plain" Placeholder="Direccion" Text="{Binding Direccion}"/>
+            <Grid ColumnDefinitions="*,*">
+                <Button x:Name="Add" Text="Agregar" Clicked="Add_Clicked"/>
+                <Button Grid.Column="1" x:Name="btnEliminar" Text="Eliminar" Clicked="btnEliminar_Clicked"/>
+
+            </Grid>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicios1Parcial.Ejercicio2">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="TxNombre" Keyboard="Text" Placeholder="Ingrese Nombre" TextColor="Blue" />
+            <Entry x:Name="TxApellido" Keyboard="Text" Placeholder="Ingrese Apellidos"  TextColor="Blue"/>
+            <Entry x:Name="TxEdad" Keyboard="Numeric" Placeholder="Ingrese Edad"  TextColor="Blue"/>
+            <Entry x:Name="TxCorreo" Keyboard="Email" Placeholder="Ingrese Correo"  TextColor="Blue"/>
+
+            <Button  x:Name="btnEnviar"  Text="Enviar Informacion" TextColor="Blue" Clicked="btnEnviar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
